@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Introduction to Node.js",
+    "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "category": "Programming",
+    "author": "Jane Doe",
+    "image": "https://via.placeholder.com/800x400.png?text=Introduction+to+Node.js",
+    "createdAt": "2024-07-15T10:00:00Z",
+    "updatedAt": "2024-07-15T10:00:00Z"
+  },
+  {
+    "title": "Getting Started with MongoDB",
+    "content": "MongoDB is a NoSQL database that uses a document-oriented data model.",
+    "category": "Database",
+    "author": "John Smith",
+    "image": "https://via.placeholder.com/800x400.png?text=Getting+Started+with+MongoDB",
+    "createdAt": "2024-07-16T11:00:00Z",
+    "updatedAt": "2024-07-16T11:00:00Z"
+  },
+  {
+    "title": "Mastering React.js",
+    "content": "React.js is a popular JavaScript library for building interactive user interfaces.",
+    "category": "Frontend",
+    "author": "Emily Johnson",
+    "image": "https://via.placeholder.com/800x400.png?text=Mastering+React.js",
+    "createdAt": "2024-07-17T09:30:00Z",
+    "updatedAt": "2024-07-17T09:30:00Z"
+  },
+  {
+    "title": "Building REST APIs with Express",
+    "content": "Express is a minimal and flexible Node.js web application framework.",
+    "category": "Backend",
+    "author": "Michael Lee",
+    "image": "https://via.placeholder.com/800x400.png?text=Building+REST+APIs+with+Express",
+    "createdAt": "2024-07-18T14:15:00Z",
+    "updatedAt": "2024-07-18T14:15:00Z"
+  },
+  {
+    "title": "Exploring Docker for Developers",
+    "content": "Docker is a platform for developing, shipping, and running applications inside containers.",
+    "category": "DevOps",
+    "author": "Sophia Brown",
+    "image": "https://via.placeholder.com/800x400.png?text=Exploring+Docker+for+Developers",
+    "createdAt": "2024-07-19T12:45:00Z",
+    "updatedAt": "2024-07-19T12:45:00Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Programming",
+    "slug": "programming",
+    "description": "Posts related to programming languages, concepts, and tools."
+  },
+  {
+    "name": "Database",
+    "slug": "database",
+    "description": "Posts about databases, including NoSQL, relational databases, and data modeling."
+  },
+  {
+    "name": "Framework",
+    "slug": "framework",
+    "description": "Posts on various web application frameworks, their usage, and best practices."
+  },
+  {
+    "name": "API",
+    "slug": "api",
+    "description": "Posts discussing RESTful APIs, their design, and how to integrate them."
+  },
+  {
+    "name": "DevOps",
+    "slug": "devops",
+    "description": "Posts about CI/CD, cloud infrastructure, containerization, and deployment."
+  },
+  {
+    "name": "Frontend",
+    "slug": "frontend",
+    "description": "Posts related to HTML, CSS, JavaScript, and modern frontend frameworks."
+  }
+]
