@@ -1,4 +1,4 @@
-import './App.css'
+
 import PostDetail from './Pages/PostDetail';
 import PostList from './Pages/PostList'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
