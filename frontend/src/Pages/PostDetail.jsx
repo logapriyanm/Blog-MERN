@@ -9,14 +9,14 @@ const PostDetail = () => {
   const { id } = useParams();
 
   const fetchPost = async () => {
-    try {
-      const response = await axios.get(`http://localhost:8000/api/posts/${id}`);
-      setPost(response.data);
-    } catch (error) {
-      console.error('Error fetching post:', error);
-
-    }
+  try {
+    const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/posts/${id}`);
+    setPost(response.data);
+  } catch (error) {
+    console.error('Error fetching post:', error);
   }
+}
+
 
   useEffect(() => {
     fetchPost();
