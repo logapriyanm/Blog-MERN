@@ -7,17 +7,20 @@ import { Link } from "react-router-dom";
 const PostList = () => {
 
     const [posts, setPosts] = useState([]);
-    const [categories,setCategories] = useState([]);
+    const [categories, setCategories] = useState([]);
+
+    const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
     const fetchPosts = async () => {
-        const response = await axios.get('http://localhost:8000/api/posts');
+        const response = await axios.get(`${API_URL}/api/posts`);
         setPosts(response.data);
-    }
+    };
 
     const fetchCategories = async () => {
-        const response = await axios.get('http://localhost:8000/api/categories');
+        const response = await axios.get(`${API_URL}/api/categories`);
         setCategories(response.data);
-    }
+    };
+
 
     useEffect(() => {
         fetchPosts();
@@ -26,7 +29,7 @@ const PostList = () => {
 
     return (
         <>
-      
+
             <main>
                 <div className="container mt-4">
                     <div className="row">
@@ -54,8 +57,8 @@ const PostList = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Categories</h5>
                                     <ul className="list-group">
-                                      {categories.map(category => <li className="list-group-item"><Link to={`/posts/category/${category._id}`} className="text-black"> {category.name}</Link></li>)} 
-                   
+                                        {categories.map(category => <li className="list-group-item"><Link to={`/posts/category/${category._id}`} className="text-black"> {category.name}</Link></li>)}
+
                                     </ul>
                                 </div>
                             </div>
